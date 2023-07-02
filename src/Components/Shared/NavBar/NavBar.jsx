@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import profileImg from '../../../assets/profilePicture/20190119_133806~2.jpg';
+import profileImg from '../../../assets/profilePicture/20190119_133806~2.png';
 const NavBar = () => {
     const users = false;
     const navItems =
@@ -12,15 +12,15 @@ const NavBar = () => {
             {
                 users ?
                     <>
-                        <li>logout</li>
+                        <li className='hover:bg-gray-300 rounded'> <Link>logout</Link> </li>
                     </> :
                     <>
-                        <li>login</li>
+                        <li className='hover:bg-gray-300 rounded'> <Link>login</Link> </li>
                     </>
             }
         </>
     return (
-        <div className="navbar justify-between">
+        <div className="navbar justify-between max-w-screen-2xl mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
