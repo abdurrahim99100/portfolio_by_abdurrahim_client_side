@@ -1,0 +1,16 @@
+.container1 {
+    width: 400px;
+    height: 450px;
+    background: #000;
+    transition: ease-in-out 8s;
+    background-position: top;
+}
+
+.container1 {
+    background-image: url("../../../../assets/myProject/project-one.png");
+    background-size: cover;
+}
+
+.container1 :hover {
+    background-position: bottom;
+}

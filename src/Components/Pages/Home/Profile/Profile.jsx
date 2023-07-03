@@ -6,7 +6,7 @@ const Profile = () => {
     return (
         <div className="mt-36 max-w-screen-2xl mx-auto">
             <div className="avatar flex justify-center">
-                <div className="w-28 rounded-full ring ring-primary ring-[#15E0B7] ring-offset-2">
+                <div className="w-28 rounded-full ring ring-[#15E0B7] ring-offset-2">
                     <img src={Banner} />
                 </div>
             </div>

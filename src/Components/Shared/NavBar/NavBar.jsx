@@ -8,7 +8,7 @@ const NavBar = () => {
             <li className='hover:bg-gray-300 rounded'> <Link>about</Link> </li>
             <li className='hover:bg-gray-300 rounded'> <Link>skills</Link> </li>
             <li className='hover:bg-gray-300 rounded'> <Link>project</Link> </li>
-            <li className='hover:bg-gray-300 rounded'> <Link>comments</Link> </li>
+            <li className='hover:bg-gray-300 rounded'> <Link>contact</Link> </li>
             {
                 users ?
                     <>
